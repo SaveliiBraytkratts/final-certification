@@ -6,5 +6,7 @@
         arrey[i] = Console.ReadLine()!;
     }
 }
-string[] stringArray = new string[4];
+Console.WriteLine("Введите количество строк:");
+int n = int.Parse(Console.ReadLine()!);
+string[] stringArray = new string[n];
 CreationArray(stringArray);
